@@ -3,7 +3,11 @@
 Encoder/decoder utilities for some of the more popular string
 encoding utilities.
 
-Supports Base64, Base32, URL, and Hex encoding.
+Supports the following schemes:
+- Base64
+- Base32
+- URL
+- Hex
 
 ## Quick Start
 
