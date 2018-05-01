@@ -11,7 +11,7 @@ Supports the following schemes:
 
 ## Quick Start
 
-Run make.  Run 'enc -e <encoding> <text>' to encode the text.  Run 'dec -d <encoding> <text>' to decode the text.
+Run make.  Run 'enc -s <encoding> <text>' to encode the text.  Run 'dec -s <encoding> <text>' to decode the text.
 
 If no text is specified on the command line, standard input is used.  This allows you to run piped encoding/decodings.
 
