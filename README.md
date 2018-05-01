@@ -15,4 +15,4 @@ Run make.  Run 'enc -e <encoding> <text>' to encode the text.  Run 'dec -d <enco
 
 If no text is specified on the command line, standard input is used.  This allows you to run piped encoding/decodings.
 
-Example: enc -e b64 "Hello world!" | enc -d b64
+Example: enc -s b64 "Hello world!" | dec -s b64

@@ -12,7 +12,7 @@ import (
 var enc string
 
 func main() {
-	flag.StringVar(&enc, "e", "b64", "Encoding to use [b64|b32|url]")
+	flag.StringVar(&enc, "s", "b64", "Encoding to use [b64|b32|url]")
 	flag.Parse()
 
 	var encoded []byte

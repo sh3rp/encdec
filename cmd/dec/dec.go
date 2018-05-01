@@ -12,7 +12,7 @@ import (
 var dec string
 
 func main() {
-	flag.StringVar(&dec, "d", "b64", "Encoding to use [b64|b32|url|hex]")
+	flag.StringVar(&dec, "s", "b64", "Encoding to use [b64|b32|url|hex]")
 	flag.Parse()
 
 	var decoded []byte
